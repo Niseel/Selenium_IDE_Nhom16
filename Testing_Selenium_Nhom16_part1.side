@@ -1,0 +1,3087 @@
+{
+  "id": "94843d5b-4951-4e16-8172-6e95577d2a94",
+  "version": "2.0",
+  "name": "Tesing_Lazada",
+  "url": "https://www.lazada.vn/",
+  "tests": [{
+    "id": "b7b54063-3b36-4f43-94b8-add0e6bbabcd",
+    "name": "TimKiem_GoiY",
+    "commands": [{
+      "id": "7147b22f-f78e-45dd-9884-73ceb2ddb120",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1aff21c2-66cf-42aa-87ba-121e9685f97c",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b0490f3-223d-4ed3-b886-c055a40090c2",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Giày"
+    }, {
+      "id": "56581ba0-08e1-4ae0-b602-d2be016365f1",
+      "comment": "Chờ để load gợi ý",
+      "command": "waitForElementVisible",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "2eb57a14-6e7e-4d50-8e51-862fff28592f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Giày nam",
+      "targets": [
+        ["css=.suggest-common--2KmE:nth-child(2) > span > span", "css:finder"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[3]/div/a[2]/span/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span/span", "xpath:position"]
+      ],
+      "value": "Giày nam"
+    }, {
+      "id": "dbfc5490-a3c8-4727-9424-aef93679c1f6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Giày nữ",
+      "targets": [
+        ["linkText=Giày nữ", "linkText"],
+        ["css=.suggest-common--2KmE:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/catalog/?spm=a2o4n.home.search.1.19056afeC9HbXM&q=giày nữ&_keyori=ss&clickTrackInfo=textId--5632326100506518182__abId--154857__pvid--d6cd74a1-a249-49cf-acb0-ab930cb42658&from=suggest_normal&sugg=gi%C3%A0y%20n%E1%BB%AF_0_1')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Giày nữ')]", "xpath:innerText"]
+      ],
+      "value": "Giày nữ"
+    }]
+  }, {
+    "id": "66ccda9d-c208-4fce-8097-6e23b113b56b",
+    "name": "TimKiem_TuKhoa",
+    "commands": [{
+      "id": "c8735478-e01a-4e29-898a-3134d59c23cc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c32fdf1-df2c-4d3e-9108-065acf0c4417",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df2ff29b-e33d-40e5-86be-fa7440016019",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Giày"
+    }, {
+      "id": "90d97bc3-d797-4a4b-bb05-23c6ac69a687",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "73b92eab-b99e-430a-8901-29022f9a175b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.c1DXz4 > span:nth-child(2)",
+      "targets": [],
+      "value": "Giày"
+    }, {
+      "id": "6f2b5a12-608a-4132-bae6-0f73ca25860b",
+      "comment": "Nếu thầy tím kiếm theo từ khóa có chứa \"Giày\" thì lazada hiển thị từ khóa đã tìm kiếm bị lỗi nha",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8985552b-0a24-447c-a2ea-14a95f657b3f",
+    "name": "TimKiem_SanPham",
+    "commands": [{
+      "id": "18f13ebd-3abf-4f73-846d-70a4894e8891",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08f42deb-15e9-4c12-b2fc-3bad57f9a49c",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41b0530f-a84f-48d4-9b2e-78a1a94b6c34",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Tủ Lạnh"
+    }, {
+      "id": "6b848881-a5b9-463a-a6f7-99ce9b86121c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ac2cdcdd-8cd3-4298-aa06-dbd5d5bcdb3a",
+      "comment": "Nếu fail tức là tìm kiếm đc sản phẩm",
+      "command": "verifyText",
+      "target": "css=.c1DXz4 > span:nth-child(1)",
+      "targets": [],
+      "value": "0 mặt hàng được tìm thấy theo \""
+    }, {
+      "id": "537e9b48-4466-426f-8be1-6fd1adb27075",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Tủ lạnh Inverter LG GN-L225S 209L (Xám) - Bảo hành 2 năm - Hàng Phân Phối Chính Hãng, Tiết Kiệm Điện, hệ thống khí lạnh đa chiều, khử mùi Nano Carbon",
+      "targets": [
+        ["linkText=Tủ lạnh Inverter LG GN-L225S 209L (Xám) - Bảo hành 2 năm - Hàng Phân Phối Chính Hãng, Tiết Kiệm Điện, hệ thống khí lạnh đa chiều, khử mùi Nano Carbon", "linkText"],
+        ["css=.c2prKC:nth-child(1) .c3KeDq a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tủ lạnh Inverter LG GN-L225S 209L (Xám) - Bảo hành 2 năm - Hàng Phân Phối Chính Hãng, Tiết Kiệm Điện, hệ thống khí lạnh đa chiều, khử mùi Nano Carbon')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/products/tu-lanh-inverter-lg-gn-l225s-209l-xam-bao-hanh-2-nam-hang-phan-phoi-chinh-hang-tiet-kiem-dien-he-thong-khi-lanh-da-chieu-khu-mui-nano-carbon-i320700223-s513590478.html?spm=a2o4n.searchlist.list.2.7f584ac7cs3lH2&search=1')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tủ lạnh Inverter LG GN-L225S 209L (Xám) - Bảo hành 2 năm - Hàng Phân Phối Chính Hãng, Tiết Kiệm Điện, hệ thống khí lạnh đa chiều, khử mùi Nano Carbon')]", "xpath:innerText"]
+      ],
+      "value": "Tủ lạnh Inverter LG GN-L225S 209L (Xám) - Bảo hành 2 năm - Hàng Phân Phối Chính Hãng, Tiết Kiệm Điện, hệ thống khí lạnh đa chiều, khử mùi Nano Carbon"
+    }, {
+      "id": "cb318b9b-93b6-4402-9b30-2c6cef9edd29",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Tủ lạnh Panasonic Inverter 2 cửa 188 lít NR-BA228PKV1 - Hàng phân phối chính hãng, ngăn đông trên",
+      "targets": [
+        ["linkText=Tủ lạnh Panasonic Inverter 2 cửa 188 lít NR-BA228PKV1 - Hàng phân phối chính hãng, ngăn đông trên", "linkText"],
+        ["css=.c2prKC:nth-child(2) .c3KeDq a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tủ lạnh Panasonic Inverter 2 cửa 188 lít NR-BA228PKV1 - Hàng phân phối chính hãng, ngăn đông trên')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/products/tu-lanh-panasonic-inverter-2-cua-188-lit-nr-ba228pkv1-hang-phan-phoi-chinh-hang-ngan-dong-tren-i390058066-s662522304.html?spm=a2o4n.searchlist.list.4.7f584ac7cs3lH2&search=1')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tủ lạnh Panasonic Inverter 2 cửa 188 lít NR-BA228PKV1 - Hàng phân phối chính hãng, ngăn đông trên')]", "xpath:innerText"]
+      ],
+      "value": "Tủ lạnh Panasonic Inverter 2 cửa 188 lít NR-BA228PKV1 - Hàng phân phối chính hãng, ngăn đông trên"
+    }, {
+      "id": "e5e6148b-6aaf-4222-a69c-747ceef4e236",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Tủ lạnh Midea Inverter MRC-690SS [Ngày 11/4 Mua Hàng Hỗ Trợ Ship 1 triệu] 530 lít (Dung tích thực tế - Dung tích tổng >600L) - Dòng cao cấp - Ag+ Diệt khuẩn giữ đồ ăn tươi ngon lâu - Hàng chính hãng Midea Việt Nam",
+      "targets": [
+        ["linkText=Tủ lạnh Midea Inverter MRC-690SS [Ngày 11/4 Mua Hàng Hỗ Trợ Ship 1 triệu] 530 lít (Dung tích thực tế - Dung tích tổng >600L) - Dòng cao cấp - Ag+ Diệt khuẩn giữ đồ ăn tươi ngon lâu - Hàng chính hãng Midea Việt Nam", "linkText"],
+        ["css=.c2prKC:nth-child(3) .c3KeDq a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tủ lạnh Midea Inverter MRC-690SS [Ngày 11/4 Mua Hàng Hỗ Trợ Ship 1 triệu] 530 lít (Dung tích thực tế - Dung tích tổng >600L) - Dòng cao cấp - Ag+ Diệt khuẩn giữ đồ ăn tươi ngon lâu - Hàng chính hãng Midea Việt Nam')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div[3]/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/products/tu-lanh-midea-inverter-mrc-690ss-ngay-114-mua-hang-ho-tro-ship-1-trieu-530-lit-dung-tich-thuc-te-dung-tich-tong-600l-dong-cao-cap-ag-diet-khuan-giu-do-an-tuoi-ngon-lau-hang-chinh-hang-midea-viet-nam-i493926127-s961998913.html?spm=a2o4n.searchlist.list.6.7f584ac7cs3lH2&search=1')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tủ lạnh Midea Inverter MRC-690SS [Ngày 11/4 Mua Hàng Hỗ Trợ Ship 1 triệu] 530 lít (Dung tích thực tế - Dung tích tổng >600L) - Dòng cao cấp - Ag+ Diệt khuẩn giữ đồ ăn tươi ngon lâu - Hàng chính hãng Midea Việt Nam')]", "xpath:innerText"]
+      ],
+      "value": "Tủ lạnh Midea Inverter MRC-690SS [Ngày 11/4 Mua Hàng Hỗ Trợ Ship 1 triệu] 530 lít (Dung tích thực tế - Dung tích tổng >600L) - Dòng cao cấp - Ag+ Diệt khuẩn giữ đồ ăn tươi ngon lâu - Hàng chính hãng Midea Việt Nam"
+    }, {
+      "id": "dfa671ca-d464-4397-80ca-35b127014835",
+      "comment": "verify vài sản phẩm tìm được",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dc07068c-3236-48a4-a246-fde0f5475b0f",
+    "name": "TimKiem_SapXep",
+    "commands": [{
+      "id": "cfa87bd5-fb45-4554-a095-8c4a73db99f3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0073f066-5909-46d9-9e02-324f079e8b3e",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f998ea90-975d-4505-a4ea-c675ee812959",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Đồng Hồ"
+    }, {
+      "id": "bf88add1-5a16-4287-ad4c-d6e50cd9eb80",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "642b9d4c-eccf-4655-84bb-d22566b2860f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-arrow",
+      "targets": [
+        ["css=.ant-select-arrow", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fab00ff4-bdf6-4c24-9e6c-e04794664dcd",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=li.ant-select-dropdown-menu-item:nth-child(3)",
+      "targets": [
+        ["css=.ant-select-arrow", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "ee4e3dc3-28f8-40cf-b176-370ba538d7e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=li.ant-select-dropdown-menu-item:nth-child(3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feb6254d-33cb-478c-95a1-f949e4f4b27d",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div.c2prKC:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > span:nth-child(1)",
+      "targets": [],
+      "value": "sp1"
+    }, {
+      "id": "1cd778c8-a6d8-48aa-8792-e5ac9fabd41b",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div.c2prKC:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > span:nth-child(1)",
+      "targets": [],
+      "value": "sp2"
+    }, {
+      "id": "e47893e6-9287-4216-95c0-c57fc3fa50dd",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div.c2prKC:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > span:nth-child(1)",
+      "targets": [],
+      "value": "sp3"
+    }, {
+      "id": "d0def655-54fd-474c-9daf-67f71779a4eb",
+      "comment": "",
+      "command": "echo",
+      "target": "${sp1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "058782a5-4fb7-48f7-aec4-20f130921d6b",
+      "comment": "",
+      "command": "echo",
+      "target": "${sp2}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "705c68ca-ccbe-4d57-8f0a-a1b07539ad5f",
+      "comment": "",
+      "command": "echo",
+      "target": "${sp3}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa2f6b63-474d-4577-b1f0-f42ce936a7be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-arrow",
+      "targets": [
+        ["css=.ant-select-arrow", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e7d99ee-4bf0-441a-a56d-4feb3e0c3925",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=li.ant-select-dropdown-menu-item:nth-child(2) > div:nth-child(1)",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "44956bb5-ce26-43b6-b1e8-22fb669b3c97",
+      "comment": "",
+      "command": "click",
+      "target": "css=li.ant-select-dropdown-menu-item:nth-child(2) > div:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ca99aa6-a14d-4d39-a3ec-5ea969e36d1a",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div.c2prKC:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > span:nth-child(1)",
+      "targets": [],
+      "value": "sp4"
+    }, {
+      "id": "db7846f5-a3d1-495d-8ef2-67337a10b8db",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div.c2prKC:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > span:nth-child(1)",
+      "targets": [],
+      "value": "sp5"
+    }, {
+      "id": "05562365-1901-4440-b1e6-1a82d1743f51",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div.c2prKC:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > span:nth-child(1)",
+      "targets": [],
+      "value": "sp6"
+    }, {
+      "id": "287cca34-4d5c-4d43-816d-55a0e79763e5",
+      "comment": "",
+      "command": "echo",
+      "target": "${sp4}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a506fa68-dc02-4765-9709-25e786e00a34",
+      "comment": "",
+      "command": "echo",
+      "target": "${sp5}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4a815cf-ca79-49f5-8e94-5547e7daee4a",
+      "comment": "",
+      "command": "echo",
+      "target": "${sp6}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "70875bcc-fa0e-41bd-896f-103f71b7d21c",
+    "name": "TimKiem_CheckBox",
+    "commands": [{
+      "id": "e7b52c5d-148b-4d68-abd5-9c6cd63f4b97",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5617587-5658-442c-91f7-59b07d73e6c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e2af248-433c-4ce3-ac4c-fe329b94aee0",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Điện thoại"
+    }, {
+      "id": "10ec8c9a-7dac-4fcb-85a7-6c4ea4c20cd7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "962ae956-3b59-47e5-97ff-e71949fd1283",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div.c2cYd1:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)",
+      "targets": [],
+      "value": "brand"
+    }, {
+      "id": "4ed72cb5-54e7-4b41-9abe-f8fc0e93c7f3",
+      "comment": "",
+      "command": "echo",
+      "target": "${brand}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40e57427-48f6-4c95-9861-c1f950dc4f80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c2cYd1:nth-child(2) .c3NQn0:nth-child(1) .ant-checkbox-input",
+      "targets": [
+        ["css=.c2cYd1:nth-child(2) .c3NQn0:nth-child(1) .ant-checkbox-input", "css:finder"],
+        ["xpath=//input[@value='on']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ab521a9-85b0-4906-82ea-69066b43e3a0",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div.c2prKC:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)",
+      "targets": [
+        ["linkText=[XIAOMI OFFICIAL] - Điện thoại Xiaomi Redmi Note 9S 6GB/128GB - Snapdragon 8 nhân 720G, Màn hình 6.67 inches, Pin siêu khủng 5020mAh sạc nhanh 18W, 4 Camera 48MP/8MP/5MP/2MP góc siêu rộng - BH CHÍNH HÃNG 18 tháng", "linkText"],
+        ["css=.c2prKC:nth-child(1) .c3KeDq a", "css:finder"],
+        ["xpath=//a[contains(text(),'[XIAOMI OFFICIAL] - Điện thoại Xiaomi Redmi Note 9S 6GB/128GB - Snapdragon 8 nhân 720G, Màn hình 6.67 inches, Pin siêu khủng 5020mAh sạc nhanh 18W, 4 Camera 48MP/8MP/5MP/2MP góc siêu rộng - BH CHÍNH HÃNG 18 tháng')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[3]/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/products/xiaomi-official-dien-thoai-xiaomi-redmi-note-9s-6gb128gb-snapdragon-8-nhan-720g-man-hinh-667-inches-pin-sieu-khung-5020mah-sac-nhanh-18w-4-camera-48mp8mp5mp2mp-goc-sieu-rong-bh-chinh-hang-18-thang-i485972620-s939634420.html?spm=a2o4n.searchlist.list.5.a88c37cflPNryi&search=1')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'[XIAOMI OFFICIAL] - Điện thoại Xiaomi Redmi Note 9S 6GB/128GB - Snapdragon 8 nhân 720G, Màn hình 6.67 inches, Pin siêu khủng 5020mAh sạc nhanh 18W, 4 Camera 48MP/8MP/5MP/2MP góc siêu rộng - BH CHÍNH HÃNG 18 tháng')]", "xpath:innerText"]
+      ],
+      "value": "sp1"
+    }, {
+      "id": "fe8b03e3-2dcc-4069-9e6e-2a5641c2b1f3",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div.c2prKC:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)",
+      "targets": [
+        ["linkText=[XIAOMI OFFICIAL] Điện thoại Xiaomi Redmi Note 9S 4GB/64G - Snapdragon 8 nhân 720G, Màn hình 6.67 inches, Pin siêu khủng 5020mAh sạc nhanh 18W, Cụm 4 Camera 48MP/8MP/5MP/2MP góc siêu rộng, Quay phim 4K - BH CHÍNH HÃNG 18 tháng", "linkText"],
+        ["css=.c2prKC:nth-child(2) .c3KeDq a", "css:finder"],
+        ["xpath=//a[contains(text(),'[XIAOMI OFFICIAL] Điện thoại Xiaomi Redmi Note 9S 4GB/64G - Snapdragon 8 nhân 720G, Màn hình 6.67 inches, Pin siêu khủng 5020mAh sạc nhanh 18W, Cụm 4 Camera 48MP/8MP/5MP/2MP góc siêu rộng, Quay phim 4K - BH CHÍNH HÃNG 18 tháng')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[3]/div[2]/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/products/xiaomi-official-dien-thoai-xiaomi-redmi-note-9s-4gb64g-snapdragon-8-nhan-720g-man-hinh-667-inches-pin-sieu-khung-5020mah-sac-nhanh-18w-cum-4-camera-48mp8mp5mp2mp-goc-sieu-rong-quay-phim-4k-bh-chinh-hang-18-thang-i473226527-s899294173.html?spm=a2o4n.searchlist.list.10.a88c37cflPNryi&search=1')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'[XIAOMI OFFICIAL] Điện thoại Xiaomi Redmi Note 9S 4GB/64G - Snapdragon 8 nhân 720G, Màn hình 6.67 inches, Pin siêu khủng 5020mAh sạc nhanh 18W, Cụm 4 Camera 48MP/8MP/5MP/2MP góc siêu rộng, Quay phim 4K - BH CHÍNH HÃNG 18 tháng')]", "xpath:innerText"]
+      ],
+      "value": "sp2"
+    }, {
+      "id": "5d7cd43b-ac80-4951-a00e-ffae24a4d965",
+      "comment": "",
+      "command": "echo",
+      "target": "${sp1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21a7dfd7-5644-46fc-8ff2-ebb6cd917b8a",
+      "comment": "",
+      "command": "echo",
+      "target": "${sp2}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6ada6c85-5966-49d7-99ff-4fa23ad13b62",
+    "name": "TimKiem_ChuanHoa",
+    "commands": [{
+      "id": "9074b454-d5b3-44db-bba0-a0c223514794",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a73f4333-36ed-4304-ba7e-183e2fda87c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db1a5e34-00e5-4d93-a592-dbc8bb19c4f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "xE mÁy eXCiteR"
+    }, {
+      "id": "bb126f25-5e62-4d9d-bc4d-56346af38558",
+      "comment": "Chờ để load gợi ý",
+      "command": "waitForElementVisible",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "d84c89b6-5284-4367-87ec-fa1456bbc055",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.suggest-common--2KmE > span:nth-child(1) > span:nth-child(1) > b:nth-child(1)",
+      "targets": [],
+      "value": "text"
+    }, {
+      "id": "07db6e4d-440b-48d3-bbca-10ef81e39d62",
+      "comment": "",
+      "command": "echo",
+      "target": "${text}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "67c4d38d-a4a9-4d90-b47d-8475e65903bd",
+    "name": "TieuDe_CacTrang",
+    "commands": [{
+      "id": "ec948f91-d8ea-4ff2-a1d8-e6af8ea8053b",
+      "comment": "Cần đăng nhập trước để test case này",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd478e52-e5ed-40b8-a01c-fb67b40f0c07",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "LAZADA Vietnam™ - Mua Hàng Trực Tuyến Giá Tốt",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8552831-1498-446a-9b04-85d0745b12da",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8938690-cd4d-4225-ad5e-a11912aaca48",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Điện Thoại Xiaomi"
+    }, {
+      "id": "c4d0021d-dea0-496f-be42-736b79d0e742",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "42c3d039-b6b9-4edd-b4d8-ed315e858702",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM",
+      "targets": [
+        ["css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM", "css:finder"],
+        ["xpath=//img[@alt='[XIAOMI OFFICIAL] - Điện thoại Xiaomi Redmi Note 9S 6GB/128GB - Snapdragon 8 nhân 720G, Màn hình 6.67 inches, Pin siêu khủng 5020mAh sạc nhanh 18W, 4 Camera 48MP/8MP/5MP/2MP góc siêu rộng - BH CHÍNH HÃNG 18 tháng']", "xpath:img"],
+        ["xpath=//img[@type='product']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "767b2bcd-e56f-4b86-8f42-5085d0c8a5b0",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "[XIAOMI OFFICIAL] - Điện thoại Xiaomi Redmi Note 9S 6GB/128GB - Snapdragon 8 nhân 720G, Màn hình 6.67 inches, Pin siêu khủng 5020mAh sạc nhanh 18W, 4 Camera 48MP/8MP/5MP/2MP góc siêu rộng - BH CHÍNH HÃNG 18 tháng | Lazada.vn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c8c144c-9a50-4354-9918-09c3ad0cd794",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b192153-bb10-4bbc-a664-5e5d13dfa96b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quản lý tài khoản",
+      "targets": [
+        ["linkText=Quản lý tài khoản", "linkText"],
+        ["css=.account-item:nth-child(1) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//member.lazada.vn/user/account?spm=a2o4n.pdp.header.14.704c12faXAomex#/')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quản lý tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "139b1283-f643-45a4-8e28-457dc90e1867",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Quản lý tài khoản",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b6749ab-aceb-4973-bd4a-104de03d467a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chỉnh sửa",
+      "targets": [
+        ["linkText=Chỉnh sửa", "linkText"],
+        ["css=.dashboard-profile > .dashboard-mod-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Chỉnh sửa')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/profile/edit')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chỉnh sửa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aef2e57a-4041-4d09-8547-e642b263ab14",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Chỉnh sửa",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "286d07af-d2b6-4015-addd-4963b3225996",
+      "comment": "",
+      "command": "executeScript",
+      "target": "history.back()",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52665d6d-4b0d-4aff-acf4-c2a6c97338fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shipping a",
+      "targets": [
+        ["css=.shipping a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Chỉnh sửa')])[2]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/address?spm=a2o4n.manage_account.1.dprofile_edit.136a6e88Y9ProV#/book')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "598c6cac-d7a0-4513-8535-de20cd5686ed",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Sổ địa chỉ",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8da8037c-e06e-43ad-8b13-9f7273481e02",
+    "name": "TimKiem_DanhGia",
+    "commands": [{
+      "id": "4a805faf-add4-4e74-a28c-cb683d49960f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edcf1fc9-40b7-4978-b496-ca0aed71d627",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1182x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d135b22-01ff-4403-a1f0-ef8a5951d811",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4ed5197-0e09-4aaa-a3ba-8767f1837b58",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Tủ Lạnh"
+    }, {
+      "id": "74832f90-ccd5-4bd2-bcf9-4000a7e46e65",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "91196fb8-a076-4e89-ae72-46f3b6e2809b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM",
+      "targets": [
+        ["css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM", "css:finder"],
+        ["xpath=//img[@alt='[XIAOMI OFFICIAL] - Điện thoại Xiaomi Redmi Note 9S 6GB/128GB - Snapdragon 8 nhân 720G, Màn hình 6.67 inches, Pin siêu khủng 5020mAh sạc nhanh 18W, 4 Camera 48MP/8MP/5MP/2MP góc siêu rộng - BH CHÍNH HÃNG 18 tháng']", "xpath:img"],
+        ["xpath=//img[@type='product']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85342b60-33dd-4b90-9647-a0358718e7ab",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=li:nth-child(1) > .percent",
+      "targets": [
+        ["css=li:nth-child(1) > .percent", "css:finder"],
+        ["xpath=//div[@id='module_product_review']/div/div/div[2]/div/div/div[2]/ul/li/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'54')]", "xpath:innerText"]
+      ],
+      "value": "5s"
+    }, {
+      "id": "6a2ab3b3-d4ba-4e4c-9817-84827bf1eee3",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=li:nth-child(2) > .percent",
+      "targets": [
+        ["css=li:nth-child(2) > .percent", "css:finder"],
+        ["xpath=//div[@id='module_product_review']/div/div/div[2]/div/div/div[2]/ul/li[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/span[2]", "xpath:position"]
+      ],
+      "value": "4s"
+    }, {
+      "id": "472cad86-8655-4f07-b3f9-17f8f12cdfe4",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=li:nth-child(3) > .percent",
+      "targets": [
+        ["css=li:nth-child(3) > .percent", "css:finder"],
+        ["xpath=//div[@id='module_product_review']/div/div/div[2]/div/div/div[2]/ul/li[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/span[2]", "xpath:position"]
+      ],
+      "value": "3s"
+    }, {
+      "id": "957cb58c-e318-41ae-8087-de75e9d270cb",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=li:nth-child(4) > .percent",
+      "targets": [
+        ["css=li:nth-child(4) > .percent", "css:finder"],
+        ["xpath=//div[@id='module_product_review']/div/div/div[2]/div/div/div[2]/ul/li[4]/span[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/span[2]", "xpath:position"]
+      ],
+      "value": "2s"
+    }, {
+      "id": "e561a8a1-1313-4376-9fd5-681c7427c188",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=li:nth-child(5) > .percent",
+      "targets": [
+        ["css=li:nth-child(5) > .percent", "css:finder"],
+        ["xpath=//div[@id='module_product_review']/div/div/div[2]/div/div/div[2]/ul/li[5]/span[2]", "xpath:idRelative"],
+        ["xpath=//li[5]/span[2]", "xpath:position"]
+      ],
+      "value": "1s"
+    }, {
+      "id": "f99bae53-52d4-436e-9d44-25971c61db81",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.count",
+      "targets": [
+        ["css=.count", "css:finder"],
+        ["xpath=//div[@id='module_product_review']/div/div/div[2]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div[2]/div/div/div/div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "all"
+    }, {
+      "id": "7f6443cc-9132-4263-b900-8759054da719",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.score-average",
+      "targets": [
+        ["css=.score-average", "css:finder"],
+        ["xpath=//div[@id='module_product_review']/div/div/div[2]/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div[2]/div/div/div/div[2]/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'5.0')]", "xpath:innerText"]
+      ],
+      "value": "display"
+    }, {
+      "id": "c4bf277b-c752-4d0b-aab3-a472a794bb41",
+      "comment": "",
+      "command": "echo",
+      "target": "${all}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6688f72c-d151-463a-bfc4-22ddf10deae9",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ((${5s}* 5 + ${4s}* 4 + ${3s}* 3 + ${2s}* 2 + ${1s}* 1)/parseInt(${all})).toPrecision(2)",
+      "targets": [],
+      "value": "final"
+    }, {
+      "id": "1b8099fe-c51d-4a2e-923c-ab745db6d19f",
+      "comment": "",
+      "command": "echo",
+      "target": "${final}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a46b9d41-0e85-4926-80e5-100fddd72914",
+      "comment": "",
+      "command": "echo",
+      "target": "${display}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2a696f1-3dcf-4b73-81f0-d664f503f7bf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.score-average",
+      "targets": [],
+      "value": "${final}"
+    }]
+  }, {
+    "id": "c2b369f7-5059-4098-99ee-784aa7f16bd1",
+    "name": "GioHang_ThemSP",
+    "commands": [{
+      "id": "3b9f49a3-4240-46ca-879b-d4113970c463",
+      "comment": "Cần đăng nhập trước để test case này",
+      "command": "open",
+      "target": "https://www.lazada.vn/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d4387f6-10d5-4d13-a79c-0d98982b3f5b",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cde4fc5-9571-4667-89fd-ada5a9758916",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "giày sneaker nam"
+    }, {
+      "id": "3d317d3e-068f-4cf0-8d68-577806919c25",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "56aa198e-fdd9-4bf8-b329-abab46541e0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM",
+      "targets": [
+        ["css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM", "css:finder"],
+        ["xpath=//img[@alt='Giày thể thao nam sneaker Hót TREND 2020 HOÀNG HÀ 888 - GN92']", "xpath:img"],
+        ["xpath=//img[@type='product']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d643cdef-1d25-43bc-acca-18a8f3e9402c",
+      "comment": "",
+      "command": "times",
+      "target": "10",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c46d03b-1fef-4786-8aff-1bb57bf8127f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_orange",
+      "targets": [
+        ["css=.pdp-button_theme_orange", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ac271d7-8f4f-4db7-9f48-2f7e1bd417d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-icon-close",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec236204-6cf2-4b2e-aa73-e2970a282149",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4c9e7df-ccd9-4854-b08f-396cf76a6ad7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#topActionCartNumber",
+      "targets": [],
+      "value": "10"
+    }]
+  }, {
+    "id": "2481f9a5-ef17-4306-b718-2648cf14330d",
+    "name": "GioHang_Xoa",
+    "commands": [{
+      "id": "b99093f9-257c-413f-a5ef-e1b4ee1d7375",
+      "comment": "Cần đăng nhập và có sp trong giỏ trước để test case này",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f77cc7d0-1fe8-4fda-b33f-a16246a9f85e",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "css=#topActionCartNumber@display",
+      "targets": [],
+      "value": "display"
+    }, {
+      "id": "5b02dfba-a14e-427d-ae20-66308e6d29e6",
+      "comment": "",
+      "command": "echo",
+      "target": "${display}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "687a32bc-fd6e-41ea-8a10-870c7bd6352f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-icon",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5252be8-d68e-4efd-b068-68a537b33fda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-header-checkbox > input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b971e0a2-8982-42df-adf7-d5b3e2577066",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-delete",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06f6ea2a-0986-49e4-9948-2c609548955e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ok",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ef92d33-e823-4112-a502-dd863422fd79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-empty",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b923d374-11b2-4b43-95cd-5845e7330756",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.cart-empty-text",
+      "targets": [
+        ["css=.cart-empty-text", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Không có sản phẩm nào trong giỏ hàng"
+    }]
+  }, {
+    "id": "fd1a685c-bd83-4f00-9195-e1f6a5baecd1",
+    "name": "CuaHang_NhanTin",
+    "commands": [{
+      "id": "d10adeff-0408-4f9e-b4e0-7d1e6a7b83d3",
+      "comment": "Cần đăng nhập trước để test case này",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1747c92-d5a2-4b63-bc45-b2f91e5a0934",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "880043f4-31d8-47b7-9c89-684cfbe78615",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Giày"
+    }, {
+      "id": "37022ce4-1131-4bfc-8eca-cdee327d6287",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "bf43d51f-db17-4a17-bec7-55a6f1771459",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM",
+      "targets": [
+        ["css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM", "css:finder"],
+        ["xpath=//img[@alt='Áo Khoác Bomber Nam Chất Nỉ Dài Tay Khóa Kéo Phối Màu Thời Trang Trẻ Trung Phong Cách SoYoung MEN JK 022']", "xpath:img"],
+        ["xpath=//img[@type='product']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45063092-8da2-4660-bba7-0fdab660f71c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.seller-im-content > span:nth-child(2)",
+      "targets": [
+        ["css=.seller-im-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='module_seller_info']/div/div/div[2]/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f4259f7-1d41-4754-9e1d-f28e7efd9e00",
+      "comment": "",
+      "command": "type",
+      "target": "css=.message-fileds__autosize",
+      "targets": [
+        ["css=.message-fileds__autosize", "css:finder"],
+        ["xpath=//div[@id='webim-container']/div/div/span/div[2]/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Xin chào của hàng "
+    }, {
+      "id": "5e573c98-82eb-40fb-bc27-02d390130eb3",
+      "comment": "",
+      "command": "storeValue",
+      "target": "css=.message-fileds__autosize",
+      "targets": [
+        ["css=.message-fileds__autosize", "css:finder"],
+        ["xpath=//div[@id='webim-container']/div/div/span/div[2]/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "textInput"
+    }, {
+      "id": "28f5acab-c5eb-4773-a81e-b11e29b11a22",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.message-fileds__autosize",
+      "targets": [],
+      "value": "${KEY_ENTER} "
+    }, {
+      "id": "680df37b-ba8b-44aa-a36c-38a58e0b8304",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.user-type-1 .lzd-message-text",
+      "targets": [
+        ["css=.user-type-1 .lzd-message-text", "css:finder"],
+        ["xpath=//div[@id='webim-container']/div/div/span/div[2]/div[2]/div/div/div/div[6]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "${textInput}"
+    }]
+  }, {
+    "id": "2af1b939-002e-41b7-bf5e-b8d47d3a2071",
+    "name": "TaiKhoan_SuaThongTin",
+    "commands": [{
+      "id": "0c102de2-8897-4406-b614-6d49f7600d2a",
+      "comment": "Cần đăng nhập trước để test case này",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4529601-54c7-4536-b04f-3ef97acdaa25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1156x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3700828b-e5a5-4c8d-9e05-68ae74c7b85f",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdcd1f6a-ac71-49d5-a9ac-1c8166805c74",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quản lý tài khoản",
+      "targets": [
+        ["linkText=Quản lý tài khoản", "linkText"],
+        ["css=.account-item:nth-child(1) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//member.lazada.vn/user/account?spm=a2o4n.home.header.14.19056afeutspZT#/')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quản lý tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "725d6c8a-f3a5-4b3e-86a5-e56f6a6dcc2d",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Quản lý tài khoản",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "984c623f-d5e2-40d3-a4be-df386e288afb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chỉnh sửa",
+      "targets": [
+        ["linkText=Chỉnh sửa", "linkText"],
+        ["css=.dashboard-profile > .dashboard-mod-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Chỉnh sửa')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/profile/edit')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chỉnh sửa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be21a2ee-b87a-4866-9bb6-423aa454f07f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edit-profile-item:nth-child(5)",
+      "targets": [
+        ["css=.edit-profile-item:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b74dc28-28f5-416b-89aa-1c7ba1ee13ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.floating:nth-child(1) > input:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f497a168-99d1-4001-b9a9-ac2bf26bce6f",
+      "comment": "",
+      "command": "storeValue",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='Nguyễn Công Thành']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "oldName"
+    }, {
+      "id": "2f661882-d1c1-4500-a6c1-e3ba62e9d97f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mod-input-close-icon:nth-child(4)",
+      "targets": [
+        ["css=.mod-input-close-icon:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42bffb9c-5e5f-48a9-8554-d30422c68103",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='Nguyễn Thành']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn Thành"
+    }, {
+      "id": "e2f3dadc-08e8-4bec-9b0d-b627fe73db9f",
+      "comment": "",
+      "command": "storeValue",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='Nguyễn Thành']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "newName"
+    }, {
+      "id": "02198729-483f-4edd-9227-e8640055102c",
+      "comment": "Bỏ comment để tiến hành lưu thông tin mới",
+      "command": "//click",
+      "target": "css=.next-btn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c3bfa85-1330-41e3-a165-5b53ced4a71b",
+      "comment": "",
+      "command": "//verify value",
+      "target": "css=.focus > input",
+      "targets": [],
+      "value": "${newName}"
+    }]
+  }, {
+    "id": "c176c687-08d7-46b4-bb87-44af1eec301a",
+    "name": "TaiKhoan_SuaDiaChi",
+    "commands": [{
+      "id": "863dae5a-e1eb-4f60-8c6b-9bb4b290ad48",
+      "comment": "Cần đăng nhập trước để test case này",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b19f12d-b0b1-481d-be1f-1db55151187d",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d58376e4-257f-432c-b0e6-c8cdc60f370f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quản lý tài khoản",
+      "targets": [
+        ["linkText=Quản lý tài khoản", "linkText"],
+        ["css=.account-item:nth-child(1) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//member.lazada.vn/user/account?spm=a2o4n.home.header.14.19056afeSTggqc#/')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quản lý tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ad8b0d9-7b65-41b1-ac81-a15b1a2c3649",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Quản lý tài khoản",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b22097be-2df9-4cee-8b68-3b6c65db108e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shipping a",
+      "targets": [
+        ["css=.shipping a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Chỉnh sửa')])[2]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/address?spm=a2o4n.manage_account.1.dprofile_edit.136a705b7sF5X6#/book')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b67b8428-fde0-4db7-8a9a-06ccf1782338",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Sổ địa chỉ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd7e787f-7e7a-4702-9637-975e7ad33bdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn-warning",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56d6cece-ea95-48a2-8057-f35839a7ac28",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mod-input-name > input:nth-child(2)",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn Văn A"
+    }, {
+      "id": "8d51df06-1969-461c-9a99-787b6ce22f0f",
+      "comment": "",
+      "command": "storeValue",
+      "target": "css=.mod-input-name > input:nth-child(2)",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='Nguyễn Văn A']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "user"
+    }, {
+      "id": "21b5cce9-86c7-41f9-8e73-3b108a5886b3",
+      "comment": "",
+      "command": "echo",
+      "target": "${user}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03a1b7d5-088b-4e14-830d-567694a3688a",
+      "comment": "",
+      "command": "type",
+      "target": "css=div.mod-input:nth-child(2) > input:nth-child(2)",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "0929087540"
+    }, {
+      "id": "d6eb1c88-cb1f-4d4f-8188-e2967843f8eb",
+      "comment": "",
+      "command": "storeValue",
+      "target": "css=div.mod-input:nth-child(2) > input:nth-child(2)",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "phone"
+    }, {
+      "id": "6d57b516-7f56-42a6-bc2c-9d666be254d0",
+      "comment": "",
+      "command": "echo",
+      "target": "${phone}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dd33cf7-b3d2-4c3a-8511-6c0a929a3795",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mod-input-detailAddress > input:nth-child(2)",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b019a411-e9c2-4adf-bbe4-1bf536d64758",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mod-input-detailAddress > input:nth-child(2)",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='số 20 Đường 20']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "số 20 Đường 20"
+    }, {
+      "id": "6fef0b13-ac25-4889-b14b-a1fe733250a2",
+      "comment": "",
+      "command": "storeValue",
+      "target": "css=.mod-input-detailAddress > input:nth-child(2)",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='số 20 Đường 20']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "address"
+    }, {
+      "id": "1967c7ab-6f65-4810-8035-a2e2f59ee395",
+      "comment": "",
+      "command": "echo",
+      "target": "${address}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac67f981-66b2-4bab-9289-063ebac0c785",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.mod-select:nth-child(2) > span:nth-child(2) > i:nth-child(3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc10069a-0f6e-4144-a449-24209eaca6d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=R1973756",
+      "targets": [
+        ["id=R1973756", "id"],
+        ["css=#R1973756", "css:finder"],
+        ["xpath=//li[@id='R1973756']", "xpath:attributes"],
+        ["xpath=//body/div[5]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Hồ Chí Minh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e32c1934-242b-4a2c-8ff6-fc412f36e5a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.mod-select:nth-child(3) > span:nth-child(2) > i:nth-child(3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aab0b806-35e6-4d9a-9a26-6707e5f20a9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=R7157268",
+      "targets": [
+        ["id=R7157268", "id"],
+        ["css=#R7157268", "css:finder"],
+        ["xpath=//li[@id='R7157268']", "xpath:attributes"],
+        ["xpath=//body/div[5]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Huyện Bình Chánh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2022883-b161-4b62-b8ab-9e099d464420",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.mod-select:nth-child(4) > span:nth-child(2) > i:nth-child(3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e92a78df-219b-40ec-a243-c009087bc31d",
+      "comment": "",
+      "command": "click",
+      "target": "id=R7462672",
+      "targets": [
+        ["id=R7462672", "id"],
+        ["css=#R7462672", "css:finder"],
+        ["xpath=//li[@id='R7462672']", "xpath:attributes"],
+        ["xpath=//body/div[5]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Thị trấn Tân Túc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffcb6283-b2a4-4ff8-94fa-ab5f26cd7aef",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5bbcce4-89d4-4133-ba17-8bbda9245ab2",
+      "comment": "Bỏ comment để lưu thông tin",
+      "command": "//click",
+      "target": "css=.next-btn-primary",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b9493243-0e81-4ae0-a921-7104a1c7d4ec",
+    "name": "TaiKhoan_SPYeuThich",
+    "commands": [{
+      "id": "fc49a314-73b4-42b9-b500-69ae27e28250",
+      "comment": "Cần đăng nhập trước để test case này",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7918ec0-8a3b-463a-af7e-5c1e8ff65244",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ea9fb31-c50f-488c-81d6-beda1bf61f67",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Áo Khoác Nam"
+    }, {
+      "id": "39fb74b7-5b52-4f71-a22f-c26c030ab55a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "df822bea-d365-4113-a098-b14dd422d1eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM",
+      "targets": [
+        ["css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM", "css:finder"],
+        ["xpath=//img[@alt='Áo Khoác Bomber Nam Chất Nỉ Dài Tay Khóa Kéo Phối Màu Thời Trang Trẻ Trung Phong Cách SoYoung MEN JK 022']", "xpath:img"],
+        ["xpath=//img[@type='product']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e146c9d-7204-4a7e-9d43-1bfa9179216d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wishlist-icon",
+      "targets": [
+        ["css=.wishlist-icon", "css:finder"],
+        ["xpath=//div[@id='module_product_wishlist_1']/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93902060-7f28-4ded-a8d7-63110c6c4d4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-mod-product-badge-title",
+      "targets": [
+        ["css=.pdp-mod-product-badge-title", "css:finder"],
+        ["xpath=//div[@id='module_product_title_1']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9326ab2-6adc-4190-9585-c3725b8c062e",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.pdp-mod-product-badge-title",
+      "targets": [
+        ["css=.pdp-mod-product-badge-title", "css:finder"],
+        ["xpath=//div[@id='module_product_title_1']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/span", "xpath:position"]
+      ],
+      "value": "nameSp"
+    }, {
+      "id": "92e65030-e544-44da-982e-bcbb1d0f2a2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c856ad10-26bc-478c-bf5b-16764f86f8f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Danh sách yêu thích và gian hàng đã theo dõi",
+      "targets": [
+        ["linkText=Danh sách yêu thích và gian hàng đã theo dõi", "linkText"],
+        ["css=.account-item:nth-child(3) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.lazada.vn/wishlist/index?spm=a2o4n.pdp.header.16.905f3739q4otgx')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Danh sách yêu thích và gian hàng đã theo dõi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e1920c0-74be-49cd-94ca-bdeff1d2546b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Áo Khoác Bomber Nam Chất Nỉ Dài Tay Khóa Kéo Phối Màu Thời Trang Trẻ Trung Phong Cách SoYoung MEN JK 022",
+      "targets": [
+        ["linkText=Áo Khoác Bomber Nam Chất Nỉ Dài Tay Khóa Kéo Phối Màu Thời Trang Trẻ Trung Phong Cách SoYoung MEN JK 022", "linkText"],
+        ["css=div:nth-child(1) > .wishlist-mod .title", "css:finder"],
+        ["xpath=//a[contains(text(),'Áo Khoác Bomber Nam Chất Nỉ Dài Tay Khóa Kéo Phối Màu Thời Trang Trẻ Trung Phong Cách SoYoung MEN JK 022')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/products/i260358852-s435904400.html?spm=a2o4n.my_wishlist.price_observing.3.64ac705b3RW1HT')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Áo Khoác Bomber Nam Chất Nỉ Dài Tay Khóa Kéo Phối Màu Thời Trang Trẻ Trung Phong Cách SoYoung MEN JK 022')]", "xpath:innerText"]
+      ],
+      "value": "${nameSp}"
+    }]
+  }, {
+    "id": "e2184f0d-7477-4b95-a6f3-f6fff9e29241",
+    "name": "TimKiem_BinhLuan",
+    "commands": [{
+      "id": "bd570a6a-1a71-4cf8-b68b-aaf8a98d7b64",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a6a801a-9038-4f15-a5ed-b2162002d48f",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90c23766-e076-44f7-8991-56e8123c859b",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Giày sneaker nam"
+    }, {
+      "id": "27fab904-0446-486e-8f9a-e6e0b71cc816",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4b2331a6-4251-40cf-a8d3-ced91b558b0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM",
+      "targets": [
+        ["css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM", "css:finder"],
+        ["xpath=//img[@alt='Giày thể thao nam sneaker Hót TREND 2020 HOÀNG HÀ 888 - GN92']", "xpath:img"],
+        ["xpath=//img[@type='product']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bed1cb68-d981-4db4-a297-cf6454639aac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qna-ask-input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d90db763-1042-40ba-b664-b8a3ca8256d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qna-ask-input > input:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43253fd0-dfe1-4f18-9c52-142b1cec735f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.next-input-multiple > textarea:nth-child(1)",
+      "targets": [],
+      "value": "Shop ơi cho hỏi còn size 42 không ạ?"
+    }, {
+      "id": "a64e6c6e-1863-4c57-b05f-3b65fa3c86f1",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.next-btn-primary",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55aae659-03c1-4e8e-adbd-f9d97f9d4131",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pdp-mod-qna > div:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
+      "targets": [],
+      "value": "Shop ơi cho hỏi còn size 42 không ạ?"
+    }]
+  }, {
+    "id": "6342d684-982e-4976-8c70-489026f82502",
+    "name": "TimKiem_SoLuongSP",
+    "commands": [{
+      "id": "b8b61c19-1006-4585-b16a-e2a58f93350d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ee24f85-a53b-47b9-805b-21ff0de2b0cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "486be34c-b1d5-441a-a3c6-c4b3c747aa9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Điện Thoại"
+    }, {
+      "id": "17e8c33a-0154-4b41-b13a-32a3b18544a8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "43b3fa63-c23d-4289-a5a7-4c162f597337",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,223)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ee7e0ac-81f1-4c80-bc09-704f01554b37",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4784)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd3af0e4-8de3-405d-92f3-7658564e5b1e",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=li.ant-pagination-item:nth-child(8) > a:nth-child(1)",
+      "targets": [],
+      "value": "pageMax"
+    }, {
+      "id": "a4e75f01-4e50-4bf3-852e-49eb7ec77636",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.c1DXz4 > span:nth-child(1)",
+      "targets": [],
+      "value": "total"
+    }, {
+      "id": "290d3290-d716-45dc-acfa-45e8b2f68ba2",
+      "comment": "1 trang có 10 sản phẩm",
+      "command": "executeScript",
+      "target": "var count = ${pageMax} * 10; var str = ' mặt hàng được tìm thấy theo \"'; return count+str",
+      "targets": [],
+      "value": "totalInCount"
+    }, {
+      "id": "93e2c9d3-231c-4ad6-b6ec-a8e2330a9793",
+      "comment": "",
+      "command": "echo",
+      "target": "${total}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9d96546-2df1-480d-b3ed-9eca370890db",
+      "comment": "",
+      "command": "echo",
+      "target": "${totalInCount}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b256752c-3ec5-4953-8301-ffd7fdee26f9",
+      "comment": "Số sản phẩm hiện thị thực sự và số liệu mà trang báo là tìm được",
+      "command": "verifyText",
+      "target": "css=.c1DXz4 > span:nth-child(1)",
+      "targets": [],
+      "value": "${totalInCount}"
+    }]
+  }, {
+    "id": "8107d4cc-dcd1-4c3b-8f53-199fbf4e1e76",
+    "name": "TimKiem_LienQuan",
+    "commands": [{
+      "id": "2aaea07f-9f03-44f7-bc4e-2430bd582e3a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "424ff9ee-2a88-4317-99a4-8bfc14be6d9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab40b6f6-0164-4144-a937-f41d1a2885ab",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Giày"
+    }, {
+      "id": "bcfcb3d5-2a3b-4c6b-ad53-4d43a815780d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "43c32fdf-d691-48b8-875d-080623a0ad17",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=a.cds557:nth-child(1)",
+      "targets": [],
+      "value": "suggestion1"
+    }, {
+      "id": "9f0edf3e-37e6-4d42-bf62-a05073fe1af3",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=a.cds557:nth-child(2)",
+      "targets": [],
+      "value": "suggestion2"
+    }, {
+      "id": "84c548cb-41d1-44c9-ac8e-49ca1e1a86ae",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a.cds557:nth-child(1)",
+      "targets": [],
+      "value": "${suggestion1}"
+    }, {
+      "id": "428afce2-131c-46ba-a40a-3c515d9736d8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a.cds557:nth-child(2)",
+      "targets": [],
+      "value": "${suggestion2}"
+    }, {
+      "id": "16688fb8-5019-41a4-b0ce-b0127b296fbc",
+      "comment": "",
+      "command": "echo",
+      "target": "${suggestion1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fd6e994-c780-4db4-8aa5-8ab26f939dc5",
+      "comment": "",
+      "command": "echo",
+      "target": "${suggestion2}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a30a9609-1359-48ca-b752-2fc5db6d368d",
+    "name": "TaiKhoan_ShopYeuThich ",
+    "commands": [{
+      "id": "654a81f7-ad9e-41d6-9834-dea2d9530bba",
+      "comment": "Cần đăng nhập trước để test case này",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ecaf336-01e2-4129-8829-5dfba538d088",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9639057-6085-4cad-835f-ff554eb95976",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Áo Khoác Nam"
+    }, {
+      "id": "a43247d4-70f8-4df7-b57a-f57d8ecae173",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1a7f6518-a03b-4e35-b1bf-44b6141f1b9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM",
+      "targets": [
+        ["css=.c2prKC:nth-child(1) .cRjKsc .c1ZEkM", "css:finder"],
+        ["xpath=//img[@alt='Áo Khoác Bomber Nam Chất Nỉ Dài Tay Khóa Kéo Phối Màu Thời Trang Trẻ Trung Phong Cách SoYoung MEN JK 022']", "xpath:img"],
+        ["xpath=//img[@type='product']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c4fc7e8-ab99-4699-bac0-798772f0e37a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-link_size_xs",
+      "targets": [
+        ["linkText=ĐẾN GIAN HÀNG", "linkText"],
+        ["css=.pdp-link_size_xs", "css:finder"],
+        ["xpath=//a[contains(text(),'ĐẾN GIAN HÀNG')]", "xpath:link"],
+        ["xpath=//div[@id='module_seller_info']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/shop/shop-soyoung/?spm=a2o4n.pdp.seller.1.8be33739T0YZ6X&itemId=260358852&channelSource=pdp')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ĐẾN GIAN HÀNG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b3f4a9a-cc57-42cb-8eb1-e478a9fff3c2",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div.pi-layout-container:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > h1:nth-child(1)",
+      "targets": [],
+      "value": "textShop"
+    }, {
+      "id": "4f50aa5d-e5f4-4aab-b555-5c6c4e0ff8e4",
+      "comment": "",
+      "command": "echo",
+      "target": "${textShop}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9d3840a-9b7e-456a-aa91-ce0d3e0aba9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.pi-layout-container:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > span:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cedcb8e-8802-4746-99a7-b22adfdf78db",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > div > button",
+      "targets": [
+        ["css=div:nth-child(2) > div > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db601a27-a7c7-4463-bded-f4f281588ab6",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6af06a0f-720a-425b-9d93-29fb42f9ccae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Danh sách yêu thích và gian hàng đã theo dõi",
+      "targets": [
+        ["linkText=Danh sách yêu thích và gian hàng đã theo dõi", "linkText"],
+        ["css=.account-item:nth-child(3) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.lazada.vn/wishlist/index?spm=a2o4n.10441748.header.16.2366241eOacdhO')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Danh sách yêu thích và gian hàng đã theo dõi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18ffdc00-850f-412a-abd4-cc512f8ac9bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gian hàng đã theo dõi",
+      "targets": [
+        ["linkText=Gian hàng đã theo dõi", "linkText"],
+        ["css=.mod-header-tab > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Gian hàng đã theo dõi')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://my.lazada.vn/wishlist/storesindex?spm=a2o4n.my_wishlist.0.0.5118705bwlLr7f')]", "xpath:href"],
+        ["xpath=//div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Gian hàng đã theo dõi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afd9e0fa-c658-4848-a717-3d38887efd2c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.followed-stores-user .mod-store-shop-title",
+      "targets": [
+        ["css=.followed-stores-user .mod-store-shop-title", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div[2]/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'SoYoung')]", "xpath:innerText"]
+      ],
+      "value": "${textShop}"
+    }, {
+      "id": "6498dd84-a93d-41f5-96dd-b366b537e08b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=THAM QUAN",
+      "targets": [
+        ["linkText=THAM QUAN", "linkText"],
+        ["css=.followed-stores-user .mod-store-extra > a", "css:finder"],
+        ["xpath=//a[contains(text(),'THAM QUAN')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/shop/shop-soyoung/?spm=a2o4n.store_followlist.0.0.7dc6705be52gLK')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'THAM QUAN')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2845",
+      "windowTimeout": 2000
+    }, {
+      "id": "5125c47a-0d7f-4fec-9fd8-ba69f3a37911",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2845}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e26905c0-53ad-4ed5-a1a5-2fc0d2b5e562",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > a:nth-child(2) > span",
+      "targets": [
+        ["css=div > a:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='pi-component-container']/div/div[2]/div/div/div/div[2]/div/div/div/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ngừng theo dõi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bb670ca-dc3a-4f40-b50f-2e6d751f46d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > div > button:nth-child(1)",
+      "targets": [
+        ["css=div:nth-child(2) > div > button:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ngừng theo dõi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b3b29b3-96bb-48a8-aeca-4f934cabe294",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b321773-ff86-4efa-beb1-350ebc2ca21c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Danh sách yêu thích và gian hàng đã theo dõi",
+      "targets": [
+        ["linkText=Danh sách yêu thích và gian hàng đã theo dõi", "linkText"],
+        ["css=.account-item:nth-child(3) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.lazada.vn/wishlist/index?spm=a2o4n.10441748.header.16.5cd9241e9ifKbk')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Danh sách yêu thích và gian hàng đã theo dõi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01505cf2-49ce-4f25-9ef9-7b34351c2860",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gian hàng đã theo dõi",
+      "targets": [
+        ["linkText=Gian hàng đã theo dõi", "linkText"],
+        ["css=.mod-header-tab > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Gian hàng đã theo dõi')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://my.lazada.vn/wishlist/storesindex?spm=a2o4n.my_wishlist.0.0.2877705bzfKWfk')]", "xpath:href"],
+        ["xpath=//div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Gian hàng đã theo dõi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0cb67ab-30c7-4ecc-9095-7b34e16545ea",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.followed-stores-empty > p",
+      "targets": [
+        ["css=.followed-stores-empty > p", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Bạn chưa theo dõi một gian hàng nào')]", "xpath:innerText"]
+      ],
+      "value": "Bạn chưa theo dõi một gian hàng nào"
+    }]
+  }, {
+    "id": "20272835-a53e-4bdc-83e4-41a8c02ab49d",
+    "name": "TieuDe_NgonNgu",
+    "commands": [{
+      "id": "1c85b4c4-73c6-44f6-9118-bd44a9350f5e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7d9dcd5-e307-40ce-a5ac-dcdd1c0ac5c8",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "id=q@placeholder",
+      "targets": [],
+      "value": "text1"
+    }, {
+      "id": "a4c90d3b-745b-40c8-bb4a-2c081a18485e",
+      "comment": "",
+      "command": "if",
+      "target": "${text1} === 'Tìm kiếm trên Lazada'",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81769234-c535-4c3a-b3bc-11816281a3dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionSwitchLang > span",
+      "targets": [
+        ["css=#topActionSwitchLang > span", "css:finder"],
+        ["xpath=//div[@id='topActionSwitchLang']/span", "xpath:idRelative"],
+        ["xpath=//div[8]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91bc359e-f90b-40a3-b7fa-5cde69cfe5c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-switch-icon-en",
+      "targets": [
+        ["css=.lzd-switch-icon-en", "css:finder"],
+        ["xpath=//div[@id='lzdSwitchPop']/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa364836-52b7-4a08-81b7-d8d5004eb69a",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30a3b579-9696-48aa-b7e7-4888b758caaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionSwitchLang > span",
+      "targets": [
+        ["css=#topActionSwitchLang > span", "css:finder"],
+        ["xpath=//div[@id='topActionSwitchLang']/span", "xpath:idRelative"],
+        ["xpath=//div[8]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'THAY ĐỔI NGÔN NGỮ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2354efd5-5e90-4db1-8022-2c804ab9756e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-switch-icon-vi",
+      "targets": [
+        ["css=.lzd-switch-icon-vi", "css:finder"],
+        ["xpath=//div[@id='lzdSwitchPop']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "827e7b25-3e25-4630-a750-0dd400a8d924",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de31bc96-18b4-4281-9d71-323700787fdc",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "id=q@placeholder",
+      "targets": [],
+      "value": "text2"
+    }, {
+      "id": "d8517d5b-6177-4d79-bf7c-02acebe8527e",
+      "comment": "",
+      "command": "echo",
+      "target": "${text1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d441e2a-4a15-4ce5-be35-35bc10a1f814",
+      "comment": "",
+      "command": "echo",
+      "target": "${text2}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1a1b465c-570a-4770-bd65-a9c93e71e7d7",
+    "name": "TimKiemHoiDap_TuKhoa",
+    "commands": [{
+      "id": "7e093f66-c4d7-4809-88f0-925924c8a8fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "231d3dce-9a70-4a05-9bd5-7ee3b8e8556b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionCustomCare > span",
+      "targets": [
+        ["css=#topActionCustomCare > span", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CHĂM SÓC KHÁCH HÀNG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eb05ae8-0f01-4e8e-972f-d1a07d05c4a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trung tâm hỗ trợ",
+      "targets": [
+        ["linkText=Trung tâm hỗ trợ", "linkText"],
+        ["css=.care-item:nth-child(1) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/helpcenter/?spm=a2o4n.home.header.5.19056afe3IOLMO')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trung tâm hỗ trợ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "393932b3-ec40-4765-abd4-7ecd57e65f24",
+      "comment": "",
+      "command": "click",
+      "target": "id=hq",
+      "targets": [
+        ["id=hq", "id"],
+        ["name=hq", "name"],
+        ["css=#hq", "css:finder"],
+        ["xpath=//input[@id='hq']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "186fb3d5-a7a8-4327-9e5b-4cd63cc7ff1a",
+      "comment": "",
+      "command": "type",
+      "target": "id=hq",
+      "targets": [
+        ["id=hq", "id"],
+        ["name=hq", "name"],
+        ["css=#hq", "css:finder"],
+        ["xpath=//input[@id='hq']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "Giao Hàng"
+    }, {
+      "id": "921bc3aa-34e6-4eb4-87fc-55e2b05541a5",
+      "comment": "",
+      "command": "storeValue",
+      "target": "id=hq",
+      "targets": [],
+      "value": "textSearch"
+    }, {
+      "id": "4d24e775-7df1-48df-8aa1-8e664d4b3c8e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=hq",
+      "targets": [
+        ["id=hq", "id"],
+        ["name=hq", "name"],
+        ["css=#hq", "css:finder"],
+        ["xpath=//input[@id='hq']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b1f06c26-72ef-41b3-a59f-379477057490",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_2FFhK",
+      "targets": [
+        ["css=.\\_2FFhK", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/h1/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": "${textSearch}"
+    }]
+  }, {
+    "id": "3fd64f69-216c-417c-9e08-133eedd23fdd",
+    "name": "TimKiemHoiDap_NhanTin",
+    "commands": [{
+      "id": "c3bc2fcb-3a01-4fa7-9313-b609c127612d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f421ffca-3328-490b-baa9-aa1f7ae86c5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionCustomCare > span",
+      "targets": [
+        ["css=#topActionCustomCare > span", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CHĂM SÓC KHÁCH HÀNG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "062edef5-9a2f-473e-8144-77e3839284c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Liên hệ với Lazada",
+      "targets": [
+        ["linkText=Liên hệ với Lazada", "linkText"],
+        ["css=.care-item:nth-child(5) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/contact/?spm=a2o4n.helpcenter.header.9.19d75e9cNovcWZ')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Liên hệ với Lazada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cec5afe9-5a84-4f6e-b5fa-69b1e1eab82c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_button-image",
+      "targets": [
+        ["css=.\\_button-image", "css:finder"],
+        ["xpath=//div[@id='J_icms-5026384-1528864304469']/div/div/div[2]/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41a12a41-33e5-4ca2-a3f8-d2da2779eaec",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionCustomCare > span",
+      "targets": [
+        ["css=#topActionCustomCare > span", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CHĂM SÓC KHÁCH HÀNG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb5943b9-234d-4f37-bc54-cfed45b7a33f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1X06n",
+      "targets": [
+        ["css=.\\_1X06n", "css:finder"],
+        ["xpath=//div[@id='_9hPS2']/div/div[2]/div[2]/div[2]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af83c3c7-9dc8-483f-a630-149ca9584c1f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_1X06n",
+      "targets": [
+        ["css=.\\_1X06n", "css:finder"],
+        ["xpath=//div[@id='_9hPS2']/div/div[2]/div[2]/div[2]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Xin Chào Admin"
+    }, {
+      "id": "e7642a61-639d-4499-b455-23344ed2965e",
+      "comment": "",
+      "command": "storeValue",
+      "target": "css=.\\_1X06n",
+      "targets": [
+        ["css=.\\_1X06n", "css:finder"],
+        ["xpath=//div[@id='_9hPS2']/div/div[2]/div[2]/div[2]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "textInput"
+    }, {
+      "id": "5fa4bc41-95ed-4e1d-935e-a5eaa9199e8f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.\\_1X06n",
+      "targets": [],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f0de3c74-1c21-466d-8d26-df98d4f39a40",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.i5TeB",
+      "targets": [
+        ["css=.i5TeB", "css:finder"],
+        ["xpath=//div[@id='_9hPS2']/div/div[2]/div/div/div[3]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "${textInput}"
+    }]
+  }, {
+    "id": "ddae4dc3-c37e-43e2-8523-c527eeb2369e",
+    "name": "TimKiemHoiDap_GoiY",
+    "commands": [{
+      "id": "6ba9fdfd-eca5-4840-9fea-1aadfa97548f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2bbd985-afdf-4e15-be1c-7d5d79771989",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionCustomCare > span",
+      "targets": [
+        ["css=#topActionCustomCare > span", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CHĂM SÓC KHÁCH HÀNG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "202a5d46-685a-44b9-9e0d-ca00e90f70de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trung tâm hỗ trợ",
+      "targets": [
+        ["linkText=Trung tâm hỗ trợ", "linkText"],
+        ["css=.care-item:nth-child(1) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/helpcenter/?spm=a2o4n.home.header.5.19056afe3IOLMO')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trung tâm hỗ trợ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e694bf61-291c-4137-b6d6-476c3f6973a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=hq",
+      "targets": [
+        ["id=hq", "id"],
+        ["name=hq", "name"],
+        ["css=#hq", "css:finder"],
+        ["xpath=//input[@id='hq']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68f88b29-85fa-4983-82b3-470ddad66f59",
+      "comment": "",
+      "command": "type",
+      "target": "id=hq",
+      "targets": [
+        ["id=hq", "id"],
+        ["name=hq", "name"],
+        ["css=#hq", "css:finder"],
+        ["xpath=//input[@id='hq']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "Giao Hàng"
+    }, {
+      "id": "84f2f300-e71c-42b7-8353-f1e45bfd80e4",
+      "comment": "Chờ để load gợi ý",
+      "command": "waitForElementVisible",
+      "target": "id=hq",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "f0876b4b-85e2-4c5b-b653-ba5e8626d8ab",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_2KESF:nth-child(1) .\\_176Y0",
+      "targets": [
+        ["css=.\\_2KESF:nth-child(1) .\\_176Y0", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/form/ul/li/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Giao hàng đúng hẹn')]", "xpath:innerText"]
+      ],
+      "value": "Giao hàng đúng hẹn"
+    }, {
+      "id": "edb81412-cd62-4d30-aae7-690ce6bb5a45",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_2KESF:nth-child(2) .\\_176Y0",
+      "targets": [
+        ["css=.\\_2KESF:nth-child(2) .\\_176Y0", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/form/ul/li[2]/a/p", "xpath:idRelative"],
+        ["xpath=//li[2]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Tôi không thể kiểm tra được tình trạng đơn hàng trên trang web của đơn vị giao hàng. Làm thế nào để kiểm tra đơn hàng của tôi đang ở đâu?')]", "xpath:innerText"]
+      ],
+      "value": "Tôi không thể kiểm tra được tình trạng đơn hàng trên trang web của đơn vị giao hàng. Làm thế nào để kiểm tra đơn hàng của tôi đang ở đâu?"
+    }, {
+      "id": "dc2e7f5d-c864-4890-9758-b1f92aafeb4c",
+      "comment": "",
+      "command": "storeValue",
+      "target": "id=hq",
+      "targets": [],
+      "value": "textSearch"
+    }]
+  }, {
+    "id": "872a5594-a263-4606-97ff-8e22681d99df",
+    "name": "DieuHuong_LienKetCuoiTrang",
+    "commands": [{
+      "id": "0e8a84f1-4065-4221-8152-a7bfd679a46b",
+      "comment": "Yêu câu các trang liên kết không đăng nhập // case này chạy trên ẩn danh nha Thầy",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "631f6148-a505-4d9c-9e53-52d8b1df4e6b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2624)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d09b4e4-50aa-4a28-bc15-2e4dad407fbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-follow-us-icon:nth-child(2)",
+      "targets": [
+        ["css=.lzd-follow-us-icon:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='J_icms-5000632-1511774372834']/section/div[4]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/LazadaVietnam?spm=a2o4n.home.sns.d_fbk.19056afenPIvn1')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8ab9633-f872-450a-b77f-85bf808d4f32",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Lazada - Trang chủ | Facebook",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ea0570b-efac-4bdc-ab44-9a857714665a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.history.back()",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3822937-36ee-4460-8b23-5e97fbd7fea8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1545)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77aa7159-1a71-43f2-9471-6e9bab53425c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-follow-us-icon:nth-child(4)",
+      "targets": [
+        ["css=.lzd-follow-us-icon:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='J_icms-5000632-1511774372834']/section/div[4]/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/company/lazada?spm=a2o4n.home.sns.d_lnk.24306afelG0hMi')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ad709be-1bcd-4412-a589-cfdec9f9b59e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Lazada | LinkedIn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac11f12d-a460-45ab-854c-0d8090d95a17",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.history.back()",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d63141ee-62b5-42bc-86eb-fca86c294f0e",
+    "name": "TaiKhoan_HuyDonHang",
+    "commands": [{
+      "id": "bc1ae9d8-1146-4e4d-9d72-9818cc14e2bc",
+      "comment": "Yêu cầu đăng nhập để chạy case này",
+      "command": "open",
+      "target": "/customer/order/index/?spm=a2o4n.order_details.0.0.6f82705bVOGFbo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ea91c40-20f2-43a1-8a20-d68dc6329e8e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=#245153103802562",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5cc9c1f-8b31-49eb-b7a2-585424820ed1",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > .bold",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79740014-29e3-4514-bd87-a5d55f67b478",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-select",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "636eb3f6-9820-4c7d-917e-6ae1f96d5f34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d075e9db-840a-4fb4-940a-cf7d0e302fe7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hovered > input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39a174dd-44e5-4c01-9495-2569d4463580",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn > .title",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb1bfdf2-e0ef-4a52-b8e5-863a5c01a777",
+      "comment": "cmt để hủy đơn thật",
+      "command": "//click",
+      "target": "linkText=Đơn hàng hủy Bỏ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f72bcd0-b2bf-4bdb-964d-218ed09510d2",
+      "comment": "",
+      "command": "//verifyElementPresent",
+      "target": "linkText=#245153103802562",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5a464ccd-e2dc-47d1-967e-36850f872504",
+    "name": "TimKiem_LichSu",
+    "commands": [{
+      "id": "133308af-a7a9-4789-b0e1-fc3c76eef77e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ecff4c8-0fd3-4f37-8062-2ff8939468b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3db9b635-29ec-42d9-88c7-65f3442c9327",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.history__title--3rTR",
+      "targets": [
+        ["css=.history__title--3rTR", "css:finder"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "Lịch sử tìm kiếm"
+    }, {
+      "id": "489040b3-b123-412a-a366-5a5b4fb8e1be",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Áo Thun",
+      "targets": [
+        ["linkText=Áo Thun", "linkText"],
+        ["css=.history__item--1rg8:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Áo Thun')]", "xpath:link"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/catalog/?spm=a2o4n.home.search.1.19056afeRYSUZl&q=Áo Thun&_keyori=ss&from=search_history&sugg=%C3%81o%20Thun_0_1')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Áo Thun')]", "xpath:innerText"]
+      ],
+      "value": "Áo Thun"
+    }, {
+      "id": "3eac0e33-ce78-4240-9c29-933b951e2d32",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Áo Khoác Nam",
+      "targets": [
+        ["linkText=Áo Khoác Nam", "linkText"],
+        ["css=.history__item--1rg8:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Áo Khoác Nam')]", "xpath:link"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[3]/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/catalog/?spm=a2o4n.home.search.2.19056afeRYSUZl&q=Áo Khoác Nam&_keyori=ss&from=search_history&sugg=%C3%81o%20Kho%C3%A1c%20Nam_1_1')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Áo Khoác Nam')]", "xpath:innerText"]
+      ],
+      "value": "Áo Khoác Nam"
+    }, {
+      "id": "0e7f9b38-9544-45e5-8726-13504ba17949",
+      "comment": "Xóa lịch sử tìm kiếm",
+      "command": "click",
+      "target": "css=.history__action--1FTv",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95b48958-5b03-416a-b4dc-41983398fa86",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13035d6d-00d6-4ef5-be35-33ad840f19f0",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "css=.history__title--3rTR",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33ad4b18-df62-47e7-90ee-a6bbd44c86ae",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "linkText=Áo Thun",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3486c6b8-6729-40a1-b7de-7da08a41640d",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "linkText=Áo Thun",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "41ac4fe9-f213-4ff6-9bdd-025d0fdb0f54",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b7b54063-3b36-4f43-94b8-add0e6bbabcd"]
+  }],
+  "urls": ["https://www.lazada.vn/"],
+  "plugins": []
+}
